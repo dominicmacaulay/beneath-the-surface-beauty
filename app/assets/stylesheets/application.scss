@@ -1,6 +1,8 @@
 @import '@rolemodel/optics/dist/scss/optics';
-// This is a manifest file that'll be compiled into application.css, which will include
-// all the files listed below.
-//
-// For example:
-// @import 'components/modal';
+
+// core
+@import 'core/layout.scss';
+@import 'core/utilities.scss';
+
+// components
+@import 'components/home-page.scss';
