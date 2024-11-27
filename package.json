@@ -1,0 +1,17 @@
+{
+  "name": "app",
+  "private": true,
+  "devDependencies": {
+    "webpack": "^5.96.1",
+    "webpack-cli": "^5.1.4"
+  },
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "build:css": "sass ./app/assets/stylesheets/application.sass.scss:./app/assets/builds/application.css --no-source-map --load-path=node_modules"
+  },
+  "dependencies": {
+    "@hotwired/stimulus": "^3.2.2",
+    "@hotwired/turbo-rails": "^8.0.12",
+    "sass": "^1.81.0"
+  }
+}
