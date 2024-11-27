@@ -80,3 +80,8 @@ group :test do
 end
 
 gem "slim", "~> 5.2"
+
+group :development, :test do
+  gem "rubocop"
+  gem "rubocop-rails"
+end

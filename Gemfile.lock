@@ -400,6 +400,8 @@ DEPENDENCIES
   rails (~> 8.0.0)
   rolemodel_rails!
   rspec-rails
+  rubocop
+  rubocop-rails
   rubocop-rails-omakase
   slim (~> 5.2)
   slim-rails

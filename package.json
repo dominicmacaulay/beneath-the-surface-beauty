@@ -9,6 +9,13 @@
     "css-minimizer-webpack-plugin": "^7.0.0",
     "esbuild": "^0.24.0",
     "esbuild-loader": "^4.2.2",
+    "eslint": "^9.15.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-import-resolver-webpack": "^0.13.9",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-jsx-a11y": "^6.10.2",
+    "eslint-plugin-react": "^7.37.2",
+    "eslint-plugin-react-hooks": "^5.0.0",
     "mini-css-extract-plugin": "^2.9.2",
     "postcss": "^8.4.49",
     "postcss-loader": "^8.1.1",
@@ -19,7 +26,8 @@
   },
   "scripts": {
     "build": "webpack --config webpack.config.js",
-    "build:css": "sass ./app/assets/stylesheets/application.scss:./app/assets/builds/application.css --no-source-map --load-path=node_modules"
+    "build:css": "sass ./app/assets/stylesheets/application.scss:./app/assets/builds/application.css --no-source-map --load-path=node_modules",
+    "eslint": "eslint 'app/**/*.js' 'spec/**/*.js'"
   },
   "dependencies": {
     "@hotwired/stimulus": "^3.2.2",
