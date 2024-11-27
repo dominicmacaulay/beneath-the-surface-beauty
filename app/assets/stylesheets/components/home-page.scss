@@ -1,0 +1,16 @@
+.home-page {
+  display: flex;
+  flex-direction: column;
+
+  .home-page__image {
+    width: 100%;
+    height: auto;
+  }
+
+  .home-page__header {
+    position: absolute;
+    top: var(--op-space-medium);
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
