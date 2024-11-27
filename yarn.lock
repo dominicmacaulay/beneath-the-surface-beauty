@@ -159,6 +159,13 @@
   resolved "https://registry.yarnpkg.com/@rails/actioncable/-/actioncable-7.2.200.tgz#7f56b3313762dbb85b64490aa33c5f431419aafd"
   integrity sha512-gVmi3MabEa+Bkatvw0/k1Y3WTidcIf3qNbb9L8qc+AmT2UmkVqUZhJpSLvKmH10twCYIGzn7yySW/lOpg81Duw==
 
+"@rolemodel/optics@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@rolemodel/optics/-/optics-1.0.0.tgz#13b3f5bfe76f65bb8b5ab2664e6212fbc7c75177"
+  integrity sha512-L8QG8VrfNx6xE3lA3WpFJdHw0jnFbMPUulS1Ivk4a4Fboboyff6cl1TEoYYWtLdO5wKmZ5PuSYxLMMHir93yEA==
+  dependencies:
+    modern-css-reset "^1.4.0"
+
 "@types/eslint-scope@^3.7.7":
   version "3.7.7"
   resolved "https://registry.yarnpkg.com/@types/eslint-scope/-/eslint-scope-3.7.7.tgz#3108bd5f18b0cdb277c867b3dd449c9ed7079ac5"
@@ -674,6 +681,11 @@ mime-types@^2.1.27:
   integrity sha512-ZDY+bPm5zTTF+YpCrAU9nK0UgICYPT0QtT1NZWFv4s++TNkcgVaT0g6+4R2uI4MjQjzysHB1zxuWL50hzaeXiw==
   dependencies:
     mime-db "1.52.0"
+
+modern-css-reset@^1.4.0:
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/modern-css-reset/-/modern-css-reset-1.4.0.tgz#5bee4d11eeca2ff19b882c6e8f1769773e792d04"
+  integrity sha512-0crZmSFmrxkI7159rvQWjpDhy0u4+Awg/iOycJdlVn0RSeft/a+6BrQHR3IqvmdK25sqt0o6Z5Ap7cWgUee2rw==
 
 neo-async@^2.6.2:
   version "2.6.2"
