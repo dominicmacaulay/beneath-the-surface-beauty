@@ -13,4 +13,13 @@
     left: 50%;
     transform: translate(-50%, -50%);
   }
+
+  .home-page__buttons {
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    gap: var(--op-space-medium);
+
+    width: clamp(calc(var(--op-breakpoint-x-small) * 0.5), 50%, var(--op-breakpoint-large));
+  }
 }
