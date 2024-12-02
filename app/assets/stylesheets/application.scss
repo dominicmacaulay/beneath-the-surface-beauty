@@ -1,8 +1,8 @@
-@import '@rolemodel/optics/dist/scss/optics';
+@use '@rolemodel/optics/dist/scss/optics';
 
 // core
-@import 'core/layout.scss';
-@import 'core/utilities.scss';
+@use 'core/layout.scss';
+@use 'core/utilities.scss';
 
 // components
-@import 'components/home-page.scss';
+@use 'components/home-page.scss';
