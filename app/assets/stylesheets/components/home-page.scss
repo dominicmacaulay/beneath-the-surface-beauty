@@ -1,28 +1,33 @@
 .home-page {
   @import url('https://fonts.googleapis.com/css2?family=Maname&display=swap');
 
-  --header-spacing: calc(var(--op-space-4x-large) * 3);
-  --header-font-size: calc(var(--op-font-6x-large) * 2.5);
+  --header-font-size: 10vw;
 
   display: flex;
   flex-direction: column;
 
-  .home-page__image {
-    width: 100%;
-    height: auto;
-  }
-
   .home-page__header {
-    position: absolute;
-    top: var(--header-spacing);
-    left: 50%;
-    transform: translate(-50%, -50%);
+    position: relative;
 
-    text-align: center;
-    font-family: "Maname", serif;
-    font-size: var(--header-font-size);
-    font-weight: var(--op-font-weight-bold);
-    color: black;
+    .header__photo {
+      width: 100%;
+      height: auto;
+    }
+
+    .header__text {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 100%;
+      line-height: 1em;
+
+      text-align: center;
+      font-family: "Maname", serif;
+      font-size: var(--header-font-size);
+      font-weight: var(--op-font-weight-bold);
+      color: black;
+    }
   }
 
   .home-page__content {
