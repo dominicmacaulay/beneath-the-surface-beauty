@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/RoleModel/rolemodel_rails.git
-  revision: 5451f2af5f90703c895f1fe5e87d0add4559f753
+  revision: f5df40b822e58616601d3b9c053da58defab454f
   specs:
     rolemodel_rails (0.10.0)
 
