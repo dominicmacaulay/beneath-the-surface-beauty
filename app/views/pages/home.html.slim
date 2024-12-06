@@ -3,8 +3,9 @@
     = image_tag 'home_page/HomePhotoBlurred.png', class: 'header__photo'
     .header__text Beneath the Surface Beauty
 
-  .home-page__content = @about
-
+  .home-page__content
+    = image_tag 'home_page/SoloShot.jpeg', class: 'content__photo'
+    .content__text = @about
   .home-page__buttons
     = link_to 'See the Prices', '/', class: 'btn'
     = link_to 'Make an Appointment', '/', class: 'btn-primary'
