@@ -1,5 +1,4 @@
 .home-page {
-  @import url('https://fonts.googleapis.com/css2?family=Maname&display=swap');
 
   --header-font-size: 10vw;
   --content-font-size: max(2vw, var(--op-font-large));
@@ -56,5 +55,37 @@
     gap: var(--op-space-medium);
 
     width: clamp(calc(var(--op-breakpoint-x-small) * 0.5), 50%, var(--op-breakpoint-large));
+  }
+}
+
+
+.hero {
+  --_hero-font-size-max: 10rem;
+  --_hero-font-size-min: 4rem;
+
+  position: relative;
+
+  .hero__photo {
+    width: 100%;
+    height: auto;
+  }
+
+  .hero__content {
+    position: absolute;
+    inset: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .hero__text {
+    text-align: center;
+    margin: 0;
+
+    line-height: var(--op-line-height-denser);
+    font-family: var(--btsb-font-family-hero);
+    font-size: clamp(var(--_hero-font-size-min), 10cqi, var(--_hero-font-size-max));
+    font-weight: var(--op-font-weight-bold);
+    color: var(--op-color-black);
   }
 }

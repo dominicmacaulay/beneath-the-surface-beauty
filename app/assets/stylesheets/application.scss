@@ -6,3 +6,11 @@
 
 // components
 @use 'components/home-page.scss';
+
+// fonts
+// TODO: This should be mvoe to the theme file.
+@import url('https://fonts.googleapis.com/css2?family=Maname&display=swap');
+
+:root {
+  --btsb-font-family-hero: 'Maname', serif;
+}
