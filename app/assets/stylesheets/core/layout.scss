@@ -1,4 +1,5 @@
 .app__content {
-  // max-width: var(--op-breakpoint-x-large);
-  max-width: none;
+  max-width: var(--op-breakpoint-x-large);
+  // max-width: none;
+  padding-inline: 0;
 }
